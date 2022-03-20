@@ -1,0 +1,10 @@
+*-checkpoint.ipynb
+
+# Данные для TPS слишком большие
+/TPS/data/test.csv
+/TPS/data/train.csv
+
+/TPS/catboost_info/*
+
+HP/.ipynb_checkpoints/*
+TPS/.ipynb_checkpoints/*
