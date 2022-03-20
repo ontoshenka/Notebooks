@@ -1,0 +1,269 @@
+Модель:
+	XGBClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	10 блоков, со стандартизацией и PCA
+Сетка:
+	booster: ['dart']
+	verbosity: [0]
+	max_depth: [8, 9]
+	eta: [0.01]
+	n_estimators: [50]
+	subsample: [0.3]
+	colsample_bytree: [0.3]
+	random_state: [42]
+	use_label_encoder: [False]
+Лучший набор параметров:
+	booster: dart
+	verbosity: 0
+	max_depth: 9
+	eta: 0.01
+	n_estimators: 50
+	subsample: 0.3
+	colsample_bytree: 0.3
+	random_state: 42
+	use_label_encoder: False
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.765428418261461 +- 0.009805700946176605 (mean +- std)
+	Худшая точность: 0.7488433575677462
+	Медианная точность: 0.7633840052875083
+	Лучшая точность: 0.7813738441215323
+
+
+
+***************************************************************************
+
+Модель:
+	XGBClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	10 блоков, со стандартизацией и PCA
+Сетка:
+	booster: ['dart']
+	verbosity: [0]
+	max_depth: [8, 9]
+	eta: [0.01]
+	n_estimators: [50]
+	subsample: [0.3]
+	colsample_bytree: [0.3]
+	random_state: [42]
+	use_label_encoder: [False]
+Лучший набор параметров:
+	booster: dart
+	verbosity: 0
+	max_depth: 9
+	eta: 0.01
+	n_estimators: 50
+	subsample: 0.3
+	colsample_bytree: 0.3
+	random_state: 42
+	use_label_encoder: False
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.765428418261461 +- 0.009805700946176605 (mean +- std)
+	Худшая точность: 0.7488433575677462
+	Медианная точность: 0.7633840052875083
+	Лучшая точность: 0.7813738441215323
+
+
+
+***************************************************************************
+
+Модель:
+	XGBClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	10 блоков, со стандартизацией и PCA
+Сетка:
+	booster: ['dart']
+	verbosity: [0]
+	max_depth: [6, 7]
+	eta: [0.01]
+	n_estimators: [50]
+	subsample: [0.3]
+	colsample_bytree: [0.3]
+	random_state: [42]
+	use_label_encoder: [False]
+Лучший набор параметров:
+	booster: dart
+	verbosity: 0
+	max_depth: 7
+	eta: 0.01
+	n_estimators: 50
+	subsample: 0.3
+	colsample_bytree: 0.3
+	random_state: 42
+	use_label_encoder: False
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.7264430418539107 +- 0.008999255268172386 (mean +- std)
+	Худшая точность: 0.712491738268341
+	Медианная точность: 0.7264624683827785
+	Лучшая точность: 0.739101717305152
+
+
+
+***************************************************************************
+
+Модель:
+	CatBoostClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	5 блоков, без стандартизации и PCA
+Сетка:
+	logging_level: ['Silent']
+	task_type: ['GPU']
+	learning_rate: [0.1, 0.15, 0.3, 0.5]
+	depth: [4, 5, 6, 7, 8]
+	random_seed: [42]
+	iterations: [2500, 3000, 3500]
+	custom_metric: ['Accuracy']
+Лучший набор параметров:
+	depth: 7
+	random_seed: 42
+	iterations: 3500
+	learning_rate: 0.15
+	task_type: GPU
+	custom_metric: Accuracy
+	logging_level: Silent
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.8145235129380481 +- 0.005394127363287785 (mean +- std)
+
+
+
+***************************************************************************
+
+Модель:
+	CatBoostClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	5 блоков, без стандартизации и PCA
+Сетка:
+	logging_level: ['Silent']
+	task_type: ['GPU']
+	learning_rate: [0.1, 0.15, 0.3, 0.5]
+	depth: [4, 5, 6, 7, 8]
+	random_seed: [42]
+	iterations: [2500, 3000, 3500]
+	custom_metric: ['Accuracy']
+Лучший набор параметров:
+	depth: 7
+	random_seed: 42
+	iterations: 3500
+	learning_rate: 0.15
+	task_type: GPU
+	custom_metric: Accuracy
+	logging_level: Silent
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.8145235129380481 +- 0.005394127363287785 (mean +- std)
+
+
+
+***************************************************************************
+
+Модель:
+	CatBoostClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	5 блоков, без стандартизации и PCA
+Сетка:
+	logging_level: ['Silent']
+	task_type: ['GPU']
+	learning_rate: [0.1, 0.15]
+	depth: [6, 7, 8, 9]
+	random_seed: [42]
+	iterations: [3500, 5000]
+	custom_metric: ['Accuracy']
+Лучший набор параметров:
+	depth: 7
+	random_seed: 42
+	iterations: 3500
+	learning_rate: 0.15
+	task_type: GPU
+	custom_metric: Accuracy
+	logging_level: Silent
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.8145235129380481 +- 0.005394127363287785 (mean +- std)
+
+
+
+***************************************************************************
+
+Модель:
+	CatBoostClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	5 блоков, без стандартизации и PCA
+Сетка:
+	logging_level: ['Silent']
+	task_type: ['GPU']
+	learning_rate: [0.1]
+	depth: [6, 7, 8]
+	random_seed: [42]
+	iterations: [4000]
+	custom_metric: ['Accuracy']
+Лучший набор параметров:
+	depth: 7
+	random_seed: 42
+	iterations: 3500
+	learning_rate: 0.15
+	task_type: GPU
+	custom_metric: Accuracy
+	logging_level: Silent
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.8145235129380481 +- 0.005394127363287785 (mean +- std)
+
+
+
+***************************************************************************
+
+Модель:
+	CatBoostClassifier
+Особенности предобработки данных:
+	Нет
+Особенности валидации:
+	5 блоков, без стандартизации и PCA
+Сетка:
+	logging_level: ['Silent']
+	task_type: ['GPU']
+	learning_rate: [0.1, 0.05]
+	depth: [6, 7, 8]
+	random_seed: [42]
+	iterations: [3500]
+	custom_metric: ['Accuracy']
+Лучший набор параметров:
+	depth: 7
+	random_seed: 42
+	iterations: 3500
+	learning_rate: 0.1
+	task_type: GPU
+	custom_metric: Accuracy
+	logging_level: Silent
+Информация о методе сравнения моделей:
+	Сравнивались средние значения
+Информация о метрике:
+	Точность: 0.8174973487189032 +- 0.007774003389956868 (mean +- std)
+
+
+
+***************************************************************************
+
