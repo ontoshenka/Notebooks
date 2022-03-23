@@ -8,4 +8,4 @@
 
 # TODO 
 
-Для функции `kosherGridSearchCV` придумать названия получше 
+Для функции `kosherGridSearchCV` придумать название получше 
